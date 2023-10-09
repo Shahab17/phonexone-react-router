@@ -12,6 +12,7 @@ const Card = ({ phoneDetails }) => {
         const favToStored = []
 
         const favItems = JSON.parse(localStorage.getItem('fav'))
+        
         if (!favItems) {
             favToStored.push(phoneDetails)
             localStorage.setItem('fav', JSON.stringify(favToStored))
@@ -52,7 +53,7 @@ const Card = ({ phoneDetails }) => {
                     <a className="inline-block" href="#">
                         <button
                             onClick={handleAddToFav}
-                            className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            className="flex select-none items-center gap-2 bg-slate-300 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                             type="button" >
                             Add To Favorites
                             <svg
