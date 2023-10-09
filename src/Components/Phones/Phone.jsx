@@ -2,7 +2,9 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
 
 const Phone = ({ phoneData }) => {
+
     const {id, phone_name, img, brand_name, price, rating } = phoneData || {}  // "|| {}" eita dewar mane hoilo jodi kuno value missing thake tahole jate empty object diye dey r error jate na dey tai onekta optional chaining er motoi
+   
     return (
         <div>
             <div className="relative flex   flex-col rounded-xl bg-cyan-50 bg-clip-border text-gray-700 shadow-md">
