@@ -1,0 +1,130 @@
+[
+    {
+        "id": "1",
+        "img": "https://static-01.daraz.com.bd/p/b802b8ebb0a784ec791caa75e2d4de66.jpg",
+        "phone_name": "Iphone 14 Pro Max ",
+        "brand_name": "Apple",
+        "rating": 4.2,
+        "price": 799.99
+    },
+    {
+        "id": "2",
+        "img": "https://static-01.daraz.com.bd/p/21be423208c38f2bbc850afb21d280a0.jpg",
+        "phone_name": " Iphone 14 Pro",
+        "brand_name": "Apple",
+        "rating": 4.0,
+        "price": 699.99
+    },
+    {
+        "id": "3",
+        "img": "https://static-01.daraz.com.bd/p/7a3daec838ba8cac8990f242bbc8e3e1.jpg",
+        "phone_name": "Iphone 14 Plus",
+        "brand_name": "Apple",
+        "rating": 4.5,
+        "price": 899.99
+    },
+    {
+        "id": "4",
+        "img": "https://static-01.daraz.com.bd/p/6024f7a32dbd64c15e0f5aa83480861b.jpg",
+        "phone_name": "Iphone 14",
+        "brand_name": "Apple",
+        "rating": 4.1,
+        "price": 749.99
+    },
+    {
+        "id": "5",
+        "img": "https://static-01.daraz.com.bd/p/c47614a55e7088b31ea6564390f26a1a.jpg",
+        "phone_name": "S22 Ultra",
+        "brand_name": "Samsung",
+        "rating": 4.3,
+        "price": 699.99
+    },
+    {
+        "id": "6",
+        "img": "https://static-01.daraz.com.bd/p/5a3882992f6923a1285e383d5f15d841.jpg",
+        "phone_name": "S21 FE",
+        "brand_name": "Samsung",
+        "rating": 4.2,
+        "price": 649.99
+    },
+    {
+        "id": "7",
+        "img": "https://static-01.daraz.com.bd/p/a0915cfa3a0bf8c8184442bec0d2ba38.jpg",
+        "phone_name": "S22 Ultra",
+        "brand_name": "Samsung",
+        "rating": 4.0,
+        "price": 599.99
+    },
+    {
+        "id": "8",
+        "img": "https://static-01.daraz.com.bd/p/93c8da1bb0f89a8b9cd706c5acf7df7a.jpg",
+        "phone_name": "S23 ",
+        "brand_name": "Samsung",
+        "rating": 4.4,
+        "price": 749.99
+    },
+    {
+        "id": "9",
+        "img": "https://static-01.daraz.com.bd/p/c5b91ec5743fea32b31fc13b427593ad.jpg",
+        "phone_name": "Oppo A17",
+        "brand_name": "Oppo",
+        "rating": 4.2,
+        "price": 499.99
+    },
+    {
+        "id": "10",
+        "img": "https://static-01.daraz.com.bd/p/7b2d207134db43c2cd6931eb0b666291.jpg",
+        "phone_name": "Oppo A78",
+        "brand_name": "Oppo",
+        "rating": 4.3,
+        "price": 549.99
+    },
+    {
+        "id": "11",
+        "img": "https://static-01.daraz.com.bd/p/cc34c91571cece2463f99f1fa9bb8727.jpg",
+        "phone_name": "F21 Pro",
+        "brand_name": "Oppo",
+        "rating": 4.5,
+        "price": 599.99
+    },
+    {
+        "id": "12",
+        "img": "https://static-01.daraz.com.bd/p/eca8e28d04e90c68777f64b5fe03c15e.jpg",
+        "phone_name": "A57 ",
+        "brand_name": "Oppo",
+        "rating": 4.1,
+        "price": 499.99
+    },
+    {
+        "id": "13",
+        "img": "https://static-01.daraz.com.bd/p/f4ef04257079c18f4922190b4032720f.jpg",
+        "phone_name": "Pixel 4A",
+        "brand_name": "Pixel",
+        "rating": 4.0,
+        "price": 799.99
+    },
+    {
+        "id": "14",
+        "img": "https://static-01.daraz.com.bd/p/c7db3591e1f1dbf327db52ce9edcb509.jpg",
+        "phone_name": "Pixel 3",
+        "brand_name": "Pixel",
+        "rating": 4.3,
+        "price": 899.99
+    },
+    {
+        "id": "15",
+        "img": "https://static-01.daraz.com.bd/p/f4ef04257079c18f4922190b4032720f.jpg",
+        "phone_name": "Pixel 4A",
+        "brand_name": "Pixel",
+        "rating": 4.2,
+        "price": 849.99
+    },
+    {
+        "id": "16",
+        "img": "https://static-01.daraz.com.bd/p/c7db3591e1f1dbf327db52ce9edcb509.jpg",
+        "phone_name": "Pixel 3",
+        "brand_name": "Pixel",
+        "rating": 4.4,
+        "price": 949.99
+    }
+]
