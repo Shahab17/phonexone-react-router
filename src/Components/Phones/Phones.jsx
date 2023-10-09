@@ -5,7 +5,7 @@ import Phone from "./Phone";
 
 const Phones = () => {
     const phones = useLoaderData()
-    console.log(phones)
+    // console.log(phones)
 
     return (
         <div className="my-8">

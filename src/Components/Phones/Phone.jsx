@@ -9,7 +9,7 @@ const Phone = ({ phoneData }) => {
                 <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
                     <img
                         src={img}
-                        className="h-full    " />
+                        className="h-full" />
                 </div>
                 <div className="p-6">
                     <div className="mb-2 flex items-center justify-between">
