@@ -1,12 +1,17 @@
+// import useGetCustomHook from "../../CustomHook/useGetCustomHook";
 
 
 const Login = () => {
+
+    // const [getItems] = useGetCustomHook()
+    // console.log(getItems)
+
     return (
         <div className="flex items-center justify-center  mt-48">
             <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                <div className="relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-border text-white shadow-lg shadow-pink-500/40">
-                    <h3 className="block font-sans text-3xl font-semibold leading-snug tracking-normal text-white antialiased">
-                        Sign In
+                <div className="relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tr from-cyan-50 to-blue-600 bg-clip-border text-white shadow-lg shadow-pink-500/40">
+                    <h3 className="block font-sans text-3xl font-semibold leading-snug tracking-normal text-black antialiased">
+                    Sign In
                     </h3>
                 </div>
                 <div className="flex flex-col gap-4 p-6">
@@ -37,7 +42,7 @@ const Login = () => {
                             >
                                 <input
                                     type="checkbox"
-                                    className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-pink-500 checked:bg-pink-500 checked:before:bg-pink-500 hover:before:opacity-10"
+                                    className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-blue-500 checked:bg-blue-500 checked:before:bg-blue-500 hover:before:opacity-10"
                                     id="checkbox"
                                 />
                                 <span className="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-white opacity-0 transition-opacity peer-checked:opacity-100">
@@ -68,7 +73,7 @@ const Login = () => {
                 </div>
                 <div className="p-6 pt-0">
                     <button
-                        className="block w-full select-none rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                        className="block w-full select-none rounded-lg bg-gradient-to-tr from-cyan-50 to-blue-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-black shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                         type="button"
                         data-ripple-light="true"
                     >
@@ -78,7 +83,7 @@ const Login = () => {
                         Don't have an account?
                         <a
                             href="#signup"
-                            className="ml-1 block font-sans text-sm font-bold leading-normal text-pink-500 antialiased"
+                            className="ml-1 block font-sans text-sm font-bold leading-normal text-blue-600 antialiased"
                         >
                             Sign up
                         </a>
